@@ -36,6 +36,7 @@ a {
 
     body {
         background-image: url("Images/photofull.jpeg");
+        background-size: 100%
         backdrop-filter: blur(15px);
     }
 
