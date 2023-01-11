@@ -29,11 +29,20 @@ a {
 
 
 @media (min-width: 780px) {
+
+    .container img {
+        display: none;
+    }
+
+    body {
+        background-image: url("Images/photofull.jpeg");
+        backdrop-filter: blur(15px);
+    }
+
     .grid-2 {
         display: grid;
         grid-template-columns: 1fr 0;
     }
-
 
     nav {
         visibility: visible;
@@ -138,6 +147,11 @@ a {
 
 /* media queres */
 @media (max-width: 780px) {
+
+    .container img {
+        width: 50%;
+        border-radius: 250px;
+    }
 
     .visit {
         display: none;
